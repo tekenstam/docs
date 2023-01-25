@@ -1,0 +1,22 @@
+<div id="tags-filter">
+    <button class="filter-button" data-filter="api">API</button>
+    <button class="filter-button" data-filter="cli">CLI</button>
+    <button class="filter-button" data-filter="web">Web</button>
+    <button class="filter-button" data-filter="score">Score</button>
+  </div>
+  {{ define "main" }}
+  <div id="tags-filter">
+    <button class="filter-button" data-filter="api">API</button>
+    <button class="filter-button" data-filter="cli">CLI</button>
+    <button class="filter-button" data-filter="web">Web</button>
+    <button class="filter-button" data-filter="score">Score</button>
+  </div>
+  <div class="tags-container">
+    {{ range .Data.Pages }}
+      <div class="tag-item {{ .Params.tag }}">{{ .Title }}</div>
+    {{ end }}
+  </div>
+  {{ end }}
+  </div>
+  
+  <script src="{{ "js/filter.js" | absURL }}"></script>
