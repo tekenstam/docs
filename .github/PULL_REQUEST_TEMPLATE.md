@@ -16,6 +16,6 @@ Write your test plan here. If you changed any code, please provide us with clear
 
 If this pull request is related to any other pull request or issue, or resolves any issues - then link all related pull requests and issues here.
 
-## Have you read the [Contributing Guidelines](CONTRIBUTING.md)?
+## Have you read the [Contributing Guidelines](./CONTRIBUTING.md)?
 
-- [ ] I have read the [Contributing Guidelines](CONTRIBUTING.md)
+- [ ] I have read the [Contributing Guidelines](./CONTRIBUTING.md)
